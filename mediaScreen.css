@@ -1,0 +1,71 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    article.contacte {
+        padding: 20px 0;
+    }
+    section {
+        width: 95%;
+    }
+    #detallEstudi article,
+    #detallServeis article {
+        flex-direction: column;
+    }
+    #detallEstudi .senar,
+    #detallEstudi .parell,
+    #detallServeis .senar,
+    #detallServeis .parell {
+        width: 90%;
+        height: auto;
+    }
+    #detallEstudi .senar,
+    #detallServeis .senar {
+        order: 1;
+    }
+    #detallEstudi .parell,
+    #detallServeis .parell {
+        order: 2;
+    }
+    #sctServeis article {
+        height: auto;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    section {
+        width: 95%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #sctContacte {
+        width: 75%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    #sctContacte {
+        width: 75%;
+    }
+}
